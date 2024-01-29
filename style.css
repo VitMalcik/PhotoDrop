@@ -142,6 +142,7 @@ h1 {
 .form p {
   margin-top: 22px;
   font-size: 18px;
+  text-align: left;
 }
 
 .form input {
@@ -292,6 +293,10 @@ footer {
   text-align: left;
 }
 
+.learn-container h1 {
+  font-weight: 400;
+}
+
 .tip {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -414,7 +419,7 @@ footer {
   .btn-main {
     position: absolute;
     right: 22px;
-    top: 36px;
+    top: 33px;
     z-index: 15;
   }
   .gallery {
@@ -431,9 +436,20 @@ footer {
 
   .learn-container {
     margin-top: 46px;
-    padding: 42px 42px;
+    padding: 42px 32px;
     border-radius: 16px;
     border-radius: 0;
+  }
+
+  .about-container {
+    margin-top: 46px;
+    padding: 42px 32px;
+    background-color: #22272e;
+    margin-bottom: 16px;
+    border-radius: 0;
+    display: grid;
+    text-align: left;
+    padding-bottom: 260px;
   }
 }
 
