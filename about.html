@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>PhotoDrop</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+        <a class="header-logo" href="index.html">
+          <div>
+            <img class="logo" src="images/PhotoDrop_logo_t.png" alt="logo" />
+            <h1>PhotoDrop</h1>
+          </div>
+        </a>
+
+        <nav class="nav-parent">
+          <ul class="header-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="learn.html">Learn</a></li>
+            <li></li>
+          </ul>
+        </nav>
+        <!-- start of hamburger menu -->
+
+        <nav class="ham-menu-nav">
+          <div class="off-screen-menu">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="learn.html">Learn</a></li>
+            </ul>
+          </div>
+
+          <div class="ham-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </nav>
+      </header>
+
+      <main class="main">
+        <div class="about-container">
+          <h1>Welcome to PhotoDrop</h1>
+
+          <div class="about-intro">
+            <p>
+              Greetings! My name is Vit, and I'm an aspiring frontend developer.
+              <br />
+              As you have probably noticed by now, PhotoDrop is just a demo
+              site. I hope to expand its functionality soon as I learn more
+              about web development. Currently, I'm increasing my JS and React
+              skills, but I want to learn so much more!
+            </p>
+            <img src="images/avatar1KB.jpg" alt="" />
+          </div>
+          <p>
+            The basic idea behind this page is a place where random people can
+            share their photography freely with a short name and description. I
+            also thought it might be interesting to add some basic tips about
+            photography.
+          </p>
+
+          <p>I hope you have not encountered too many bugs 😀</p>
+        </div>
+      </main>
+    </div>
+    <footer>Created by Vit Malcik 2024</footer>
+    <script src="scriptHamburgerMenu.js"></script>
+  </body>
+</html>

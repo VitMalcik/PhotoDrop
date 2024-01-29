@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>PhotoDrop</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+        <a class="header-logo" href="index.html">
+          <div>
+            <img class="logo" src="images/PhotoDrop_logo_t.png" alt="logo" />
+            <h1>PhotoDrop</h1>
+          </div>
+        </a>
+
+        <nav class="nav-parent">
+          <ul class="header-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="learn.html">Learn</a></li>
+            <li>
+              <button class="btn btn-main">Drop your photo!</button>
+            </li>
+          </ul>
+        </nav>
+        <!-- start of hamburger menu -->
+
+        <nav class="ham-menu-nav">
+          <div class="off-screen-menu">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="learn.html">Learn</a></li>
+            </ul>
+          </div>
+
+          <div class="ham-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <button class="btn btn-main">Drop your photo!</button>
+        </nav>
+        <!-- end of hamburger menu -->
+      </header>
+
+      <form class="form hidden">
+        <div class="form-photo">
+          <h1>Drop your photos here. Its free!</h1>
+
+          <p class="input-name-title">Title</p>
+          <span class="name-error"></span>
+          <input
+            class="input-name"
+            type="text"
+            placeholder="Give your photography a name" />
+
+          <p class="input-file-title">File selection</p>
+          <span class="file-error"></span>
+          <input
+            class="input-file"
+            type="file"
+            accept="image/png, image/jpg, image/jpeg" />
+
+          <p class="input-description-title">Description</p>
+          <span class="description-error"></span>
+          <input
+            class="input-description"
+            type="text"
+            placeholder="Short description" />
+
+          <p>Drop the photo! Make everyone see it!</p>
+          <button class="btn btn-post">Drop!</button>
+        </div>
+      </form>
+
+      <main class="main">
+        <div>
+          <ul class="gallery">
+            <!-- <li class="galleryPost">
+              <img
+                class="galleryImage"
+                src="images/z_img05.jpg"
+                alt="uploadedPhoto" />
+
+              <p class="photoName">Polution</p>
+              <p class="description">The air in this city is horrible!</p>
+            </li> -->
+          </ul>
+        </div>
+      </main>
+    </div>
+
+    <footer>Created by Vit Malcik 2024</footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
