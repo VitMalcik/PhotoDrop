@@ -261,7 +261,7 @@ footer {
 
 .about-container h1 {
   display: block;
-  font-size: 42px;
+  font-size: 32px;
   font-weight: 400;
   margin-bottom: 16px;
   text-align: left;
@@ -295,6 +295,7 @@ footer {
 
 .learn-container h1 {
   font-weight: 400;
+  font-size: 32px;
 }
 
 .tip {
@@ -436,14 +437,14 @@ footer {
 
   .learn-container {
     margin-top: 46px;
-    padding: 42px 32px;
+    padding: 22px 32px;
     border-radius: 16px;
     border-radius: 0;
   }
 
   .about-container {
     margin-top: 46px;
-    padding: 42px 32px;
+    padding: 22px 32px;
     background-color: #22272e;
     margin-bottom: 16px;
     border-radius: 0;
