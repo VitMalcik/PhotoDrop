@@ -64,9 +64,9 @@ btnMain.forEach((btn) => {
   btn.addEventListener("click", function () {
     if (form.classList.contains("hidden")) {
       form.classList.remove("hidden");
-      btnMain.textContent = "Close";
+      btn.textContent = "Close";
     } else {
-      btnMain.textContent = "Drop your photo!";
+      btn.textContent = "Drop your photo!";
       form.classList.add("hidden");
     }
   });
@@ -163,7 +163,10 @@ btnPost.addEventListener("click", function (event) {
     uploadedFile = "";
     inputDescription.value = "";
     // console.log(initialData);
-    btnMain.textContent = "Drop your photo!";
+
+    btnMain.forEach((btn) => {
+      btn.textContent = "Drop your photo!";
+    });
     form.classList.add("hidden");
   }
 
