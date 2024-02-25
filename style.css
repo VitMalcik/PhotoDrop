@@ -282,6 +282,20 @@ footer {
   width: 200px;
   height: 200px;
 }
+
+.git-link {
+  padding-top: 40px;
+}
+
+.git-link a {
+  padding-top: 25px;
+  padding: 3px 10px;
+  border-radius: 15px;
+  background-color: #136cf1;
+  text-decoration: none;
+  color: #fafafa;
+}
+
 /* LEARN FORMATING */
 
 .learn-container {
